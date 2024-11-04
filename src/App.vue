@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { Button } from 'ant-design-vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <Button type="primary">antd</Button>
+  <div class="app">
+    <RouterView />
+  </div>
 </template>
