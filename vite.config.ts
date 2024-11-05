@@ -12,6 +12,13 @@ export default defineConfig({
     port: 8888,
   },
   plugins: [vue(), vueJsx(), vueDevTools()],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/styles/variables.scss";`, // 引入css变量文件
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

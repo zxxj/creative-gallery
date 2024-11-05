@@ -1,13 +1,13 @@
 <template>
   <div class="home-container">
-    <Header />
+    <TopBar class="pl-8 pr-8" />
+    <Content />
     <Footer />
   </div>
 </template>
 
 <script setup lang="ts">
-import Header from '@/components/Header/index.vue';
+import TopBar from '@/components/TopBar/index.vue';
 import Footer from '@/components/Footer/index.vue';
+import Content from '@/views/Home/components/Content.vue';
 </script>
-
-<style lang="scss" scoped></style>
