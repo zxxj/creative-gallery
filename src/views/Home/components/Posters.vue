@@ -25,8 +25,8 @@
     </div>
 
     <!-- 海报素材列表 -->
-    <div class="flex flex-wrap justify-between">
-      <Card class="mt-5 w-72" v-for="item in 10">
+    <div class="flex flex-wrap justify-between card-container ">
+      <Card class="mt-5 w-72 " v-for="item in 8">
         <div class="cover h-96">
           <img src="@/assets/home/111.png" class="w-full h-full" />
         </div>

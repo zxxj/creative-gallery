@@ -5,14 +5,14 @@
       <div class="pt-32 banner-left">
         <!-- 主标题 -->
         <div class="flex items-center title">
-          <div class="font-bold text-9xl koala">Koala</div>
-          <div class="ml-5 creative-gallery text-8xl">创意工坊</div>
+          <div class="font-bold text-8xl koala">Koala</div>
+          <div class="ml-5 creative-gallery text-7xl">创意工坊</div>
         </div>
 
         <!-- 子标题 -->
         <div class="font-bold desc">
-          <div class="mb-10 text-6xl openSource mt-14">完全开源</div>
-          <div class="text-5xl desc">释放你的创意，打造独一无二的海报！</div>
+          <div class="mb-10 text-5xl openSource mt-14">完全开源</div>
+          <div class="text-4xl desc">释放你的创意，打造独一无二的海报！</div>
         </div>
 
         <!-- 提示箭头 -->
