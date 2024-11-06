@@ -16,23 +16,38 @@
         </div>
 
         <!-- 提示箭头 -->
-        <div class="w-16 h-32 pt-12 mt-20 cursor-pointer tipArrows bg-gradient-to-t from-cyan-500 to-blue-500">
+        <div
+          class="w-16 h-32 pt-12 mt-20 cursor-pointer tipArrows bg-gradient-to-t from-cyan-500 to-blue-500"
+        >
           <img src="@/assets/home/tipArrows.svg" />
         </div>
 
         <!-- 相关地址 -->
-        <div class="flex items-center mt-10 ">
-          <div class="mr-3 paths" >相关地址</div>
+        <div class="flex items-center mt-10">
+          <div class="mr-3 paths">相关地址</div>
           <Button shape="circle" size="large" class="reactive">
-            <img src="@/assets/github.svg"
-              style=" margin: auto; width: 30px; height: 30px; text-align: center; line-height: 35px; position: absolute; top: 0; bottom: 0; left: 0; right: 0;"
-              alt="项目地址">
+            <img
+              src="@/assets/github.svg"
+              style="
+                margin: auto;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                line-height: 35px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              "
+              alt="项目地址"
+            />
           </Button>
         </div>
       </div>
 
       <!-- 右侧区域 -->
-      <div class="relative right-0 bottom-20 banner-right">
+      <div class="relative right-0 bottom-32 banner-right">
         <img src="@/assets/home/light.png" />
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <Tabs>
+  <Tabs @change="tabChange">
     <TabPane v-for="tab in tabs" :tab="tab.tab" :key="tab.id" />
   </Tabs>
 </template>
@@ -11,4 +11,10 @@ import type { TabPaneProps } from 'ant-design-vue';
 defineProps({
   tabs: Array<TabPaneProps>,
 });
+
+const emits = defineEmits(['tabChange']);
+
+const tabChange = (activeKey: any) => {
+  emits('tabChange', activeKey);
+};
 </script>
