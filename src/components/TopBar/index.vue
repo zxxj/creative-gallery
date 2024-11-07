@@ -14,10 +14,13 @@
 </template>
 
 <script setup lang="ts">
+import { useRouter } from 'vue-router';
 import Tabs from './Tabs.vue';
 import { tabs } from './index';
 
+const router = useRouter();
+
 const change = (activeKey: string) => {
-  console.log(activeKey);
+  router.push(activeKey);
 };
 </script>

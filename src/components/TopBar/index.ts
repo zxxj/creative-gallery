@@ -2,12 +2,12 @@ import type { TabPaneProps } from 'ant-design-vue';
 
 export const tabs: TabPaneProps[] = [
   {
-    id: '0',
+    id: '/home',
     tab: '首页',
     disabled: false,
   },
   {
-    id: '1',
+    id: '/editor',
     tab: '海报编辑器',
     disabled: false,
   },

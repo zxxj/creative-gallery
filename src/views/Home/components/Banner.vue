@@ -47,7 +47,7 @@
       </div>
 
       <!-- 右侧区域 -->
-      <div class="relative right-0 bottom-32 banner-right">
+      <div class="relative right-0 bottom-20 banner-right">
         <img src="@/assets/home/light.png" />
       </div>
     </div>

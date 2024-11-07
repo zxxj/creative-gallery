@@ -15,4 +15,9 @@ export const routes: RouteRecordRaw[] = [
       },
     ],
   },
+
+  {
+    path: '/editor',
+    component: () => import('@/views/Editor/index.vue'),
+  },
 ];
